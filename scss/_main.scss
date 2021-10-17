@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img
+{
+    background: url(../img/img1.jpg);
+    height: 550px;
+    opacity:0.7;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.b 
+{
+    background: #26f8b5;
+}
+.a 
+{
+    font-size: 30px;
+    padding-top: 200px;
+}
+.bt
+{
+    padding: 7px 50px;
+    border: none;
+    background: #26f8b5;
+    color: #fff;
+   margin-left: 490px;
+   &:hover
+   {
+    border: 1px solid #26f8b5;
+    background: #fff;
+    color: black;
+   }
+}
+.bt-1
+{
+    padding: 7px 50px;
+    border: none;
+    background: #26f8b5;
+    color: #fff;
+    margin-left: 50px;
+    &:hover
+   {
+    border: 1px solid #26f8b5;
+    background: #fff;
+    color: black;
+   }
+}
+.bt-2
+{
+    padding: 7px 50px;
+    border: none;
+    background: #26f8b5;
+    color: #fff;
+    margin-left: 200px;
+    &:hover
+   {
+    border: 1px solid #26f8b5 !important;
+    background: #fff;
+    color: black;
+   }
+}
+.c 
+{
+    border-top: 1px solid #fff;
+    opacity: 0.5!important;
+}
+.d 
+{
+    ul 
+    {
+        li 
+        {
+            list-style: none;
+            a 
+            {
+                text-decoration: none;
+                color: #fff;
+                &:hover
+                {
+                color: goldenrod;
+                }
+            }
+        }
+    }
+}
